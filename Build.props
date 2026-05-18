@@ -28,11 +28,9 @@
     <PropertyGroup>
         <!-- IMPORTANT: Should point to <Barotrauma_Install>\LocalMods\<MyModName>\ -->
         <!-- IMPORTANT: ModDeplyDir Path must end with '\' -->
-        <ModDeployDir>..\LUATRAMA_DEBUG_LOCALMODS_MYMODDIR\</ModDeployDir>
-        <!-- IMPORTANT: Avoid the use of special (IE: / : ; , \ < > ?) (periods "." are good) and non-english characters in the AssemblyName and RootNamespace.-->
-        <!-- You must also change the assembly.dll name in ModConfig.xml to match the AssemblyName. -->
-        <AssemblyName>MyModName</AssemblyName>
-        <RootNamespace>MyModName</RootNamespace>
+        <ModDeployDir>/media/thecyberangel/d4a6b3dd-b941-443a-b492-286643993d59/steam/steamapps/common/Barotrauma/LocalMods/NonLatinKeyboardFix/</ModDeployDir>
+        <AssemblyName>NonLatinKeyboardFix</AssemblyName>
+        <RootNamespace>NonLatinKeyboardFix</RootNamespace>
         <GenerateDocumentationFile>False</GenerateDocumentationFile>
         <!-- These two numbers should match under almost all circumstances. -->
         <AssemblyVersion>1.0.0.0</AssemblyVersion>

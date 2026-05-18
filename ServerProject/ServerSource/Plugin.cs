@@ -1,4 +1,4 @@
-﻿namespace MyModName
+﻿namespace NonLatinKeyboardFix
 {
     public partial class Plugin : IAssemblyPlugin
     {
